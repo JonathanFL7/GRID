@@ -1,0 +1,41 @@
+body {
+   display: flex;
+   flex-direction: column;
+   overflow-x: hidden;
+   gap: 50px;
+   background-color: black;
+}
+
+.container {
+  height: 100vh;
+  padding: 10px;
+  display: grid;
+  grid-template:
+    "header header header" 55px
+    "menu content sidebar" 1fr
+    "footer footer footer" 50px
+    / 150px 1fr 45px;
+}
+
+.header {
+  background-color: lightskyblue;
+  grid-area: header;
+}
+
+.menu {
+  background-color: dodgerblue;
+  grid-area: menu;
+}
+
+.sidebar {
+  background-color: mediumseagreen;
+  grid-area: sidebar;
+}
+.content {
+  background-color: ivory;
+  grid-area: content;
+}
+.footer {
+  background-color: royalblue;
+  grid-area: footer;
+}
