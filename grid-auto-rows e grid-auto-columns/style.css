@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 100px 100px; /* Define duas linhas explícitas */
+  grid-template-columns: 100px 100px; /* Define duas colunas explícitas */
+  grid-auto-rows: 50px; /* Linhas geradas automaticamente terão 50px */
+  grid-auto-columns: 150px; /* Colunas geradas automaticamente terão 150px */
+  gap: 10px; /* Espaçamento entre as células */
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2196f3;
+  color: white;
+  border: 1px solid #1e88e5;
+  border-radius: 4px;
+}
