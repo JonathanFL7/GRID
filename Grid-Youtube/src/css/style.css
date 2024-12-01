@@ -1,0 +1,107 @@
+html {
+    font-family: Roboto;
+}
+
+.container {
+    display: grid;
+    min-width: 900px;
+    min-height: 100vh;
+    grid-template-areas: 
+    "video-destaque propaganda"
+    "video-destaque videos-sugestoes";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    gap: 17px 20px;
+    padding: 38px 35px;
+
+}
+
+.video-destaque {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-destaque img {
+    width: 100%;
+    margin-bottom: 17px;
+}
+
+.video-destaque .informacoes h1{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.video-destaque .informacoes .visualizacoes {
+    font-size: 14px;
+    margin-bottom: 9px;
+}
+
+.propaganda img {
+    width: 100%;
+}
+
+.videos-sugestoes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.videos-sugestoes .video{
+    display: flex;
+    gap: 4px;
+}
+
+.videos-sugestoes .video .img img{
+    width: 100%;
+}
+
+.videos-sugestoes .video .informacoes h1{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.videos-sugestoes .video .informacoes p {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.video-destaque {
+    grid-area: video-destaque;
+}
+
+.propaganda {
+    grid-area: propaganda;
+}
+
+.videos-sugestoes {
+    grid-area: videos-sugestoes;
+}
