@@ -1,0 +1,10 @@
+:root {
+  --primary-light: hsl(254, 88%, 90%);
+  --primary-dark: hsl(256, 67%, 59%);
+
+  --secondary-light: hsl(31, 66%, 93%);
+  --secondary-dark: hsl(39, 100%, 71%);
+
+  --neutral-light: hsl(0, 0%, 100%);
+  --neutral-dark: hsl(0, 0%, 7%);
+}
