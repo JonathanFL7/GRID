@@ -1,5 +1,5 @@
 html {
-  font-family: DM Sans, sans-serif;
+  font-family: DM Sans , sans-serif;
   font-size: 62.5%;
 }
 
@@ -7,13 +7,16 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 28px;
 }
 
 .container .item {
   width: 305px;
   border-radius: 8px;
 }
+
+
+/* -------- */
 
 .container .destaque-principal {
   background-color: var(--primary-dark);
@@ -51,8 +54,140 @@ html {
   padding-top: 15px;
 }
 
-.container .platforms p {
+.container .platforms h2 {
   line-height: 20px;
   font-size: 2.2em;
   padding-top: 15px;
+}
+
+
+/* -------------------- */
+
+.container .calendar {
+  background-color: lightgreen;
+  padding: 15px 15px;
+  height: 192px;
+  overflow: hidden;
+}
+
+.container .calendar h2 {
+  line-height: 20px;
+  font-size: 2.2em;
+}
+
+.container .calendar img {
+  padding-top: 15px;
+  width: 185px;
+}
+
+
+
+/* ----------------- */
+
+.container .publish-time {
+  background-color: red;
+  height: 415px;
+  padding: 0px 16px;
+  text-align: center;
+}
+
+.container .publish-time h2 {
+  padding-top: 25px;
+  font-size: 2em;
+}
+
+.container .publish-time img {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.container .publish-time p {
+  padding-top: 15px;
+  font-size: 1.6em;
+  line-height: 20px;
+}
+
+
+/* ----------- */
+
+.container .grow-followers {
+  background-color: green;
+  height: 330px;
+  text-align: center;
+  padding: 0px 37px;
+}
+
+.container .grow-followers img {
+  padding-top: 20px;
+  width: 203px;
+}
+
+.container .grow-followers h2 {
+  font-size: 2.5em;
+  padding-top: 33px;
+  line-height: 25px;
+}
+
+
+/* ----------------- */
+
+.container .audience-growth {
+  background-color: red;
+  padding: 0px 22px;
+  height: 195px;
+}
+
+.container .audience-growth h2 {
+  font-size: 3.9em;
+  padding-top: 17px;
+}
+
+.container .audience-growth p {
+  padding-top: 5px;
+  font-size: 1.6em;
+}
+
+.container .audience-growth img {
+  padding-top: 18px;
+  width: 160px;
+}
+
+
+/* ----------------- */
+
+.container .create-post {
+  background-color: red;
+  padding: 0px 25px;
+  height: 205px;
+}
+
+.container .create-post h2 {
+  font-size: 2.5em;
+  padding-top: 26px;
+  line-height: 26px;
+}
+
+.container .create-post img {
+  padding-top: 20px;
+  width: 170px;
+}
+
+
+/* --------------- */
+
+.container .using-ai {
+  background-color: red;
+  padding: 0px 20px;
+  height: 310px;
+}
+
+.container .using-ai h2 {
+  padding-top: 24px;
+  font-size: 2.5em;
+  line-height: 23px;
+}
+
+.container .using-ai img{
+  padding-top: 22px;
+  width: 195px;
 }
