@@ -3,6 +3,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-color: rgb(248, 248, 248);
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -44,7 +48,7 @@ html {
 /* ---------------------- */
 
 .container .platforms {
-  background-color: red;
+  background-color: var(--neutral-light);
   height: 145px;
   padding: 0px 15px;
 }
@@ -64,7 +68,7 @@ html {
 /* -------------------- */
 
 .container .calendar {
-  background-color: lightgreen;
+  background-color: var(--secondary-dark);
   padding: 15px 15px;
   height: 192px;
   overflow: hidden;
@@ -85,7 +89,7 @@ html {
 /* ----------------- */
 
 .container .publish-time {
-  background-color: red;
+  background-color: var(--primary-light);
   height: 415px;
   padding: 0px 16px;
   text-align: center;
@@ -111,7 +115,7 @@ html {
 /* ----------- */
 
 .container .grow-followers {
-  background-color: green;
+  background-color: var(--primary-dark);
   height: 330px;
   text-align: center;
   padding: 0px 37px;
@@ -132,7 +136,7 @@ html {
 /* ----------------- */
 
 .container .audience-growth {
-  background-color: red;
+  background-color: var(--neutral-light);
   padding: 0px 22px;
   height: 195px;
 }
@@ -156,7 +160,7 @@ html {
 /* ----------------- */
 
 .container .create-post {
-  background-color: red;
+  background-color: var(--secondary-light);
   padding: 0px 25px;
   height: 205px;
 }
@@ -176,7 +180,7 @@ html {
 /* --------------- */
 
 .container .using-ai {
-  background-color: red;
+  background-color: var(--secondary-dark);
   padding: 0px 20px;
   height: 310px;
 }
